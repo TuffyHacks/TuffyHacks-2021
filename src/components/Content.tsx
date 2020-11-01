@@ -1,10 +1,19 @@
 import React from "react"
 import GetUpdates from "./GetUpdates"
+import Helmet from "react-helmet"
 import "../styles/Content.scss"
 
 export default function Content() {
   return (
     <main>
+      <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Tuffy Hacks</title>
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
+      </div>
+
       <section id="landing">
         <div>
           <h1>TuffyHacks 2021</h1>
@@ -30,10 +39,10 @@ export default function Content() {
           <div id="info">
             <h2>Empowering Students</h2>
             <p>
-              Empowering Students TuffyHacks is Cal State Fullerton's
-              student-run hackathon for beginners and first-time hackers, where
-              participants from all our college create innovative products in 24
-              hours. This year, our hackathon will be held virtually on March 27
+              ACM, Theta Tau and other STEM Clubs are uniting to host Cal State
+              Fullerton's first 24-hour virtual hackathon for beginners and
+              first-time hackers, where participants from all our college
+              create innovative products. This year, our hackathon will be held virtually on March 27
               - 28th, meaning you can participate from the comfort of your own
               home! Come learn new topics with recorded workshops ranging from
               open-source software to creating your own DiscordBot. Meet our
