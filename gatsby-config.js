@@ -7,5 +7,6 @@
 module.exports = {
   /* Your site config here */
   plugins: ["gatsby-plugin-sass"],
-  plugins: [`gatsby-plugin-react-helmet`],
+  // fix for metadata tab
+  // plugins: [`gatsby-plugin-react-helmet`],
 }
