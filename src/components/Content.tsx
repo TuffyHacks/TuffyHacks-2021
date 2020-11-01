@@ -7,11 +7,13 @@ export default function Content() {
   return (
     <main>
       <div>
-        <Helmet>
+
+        {/* fix */}
+        {/* <Helmet>
           <meta charSet="utf-8" />
           <title>Tuffy Hacks</title>
           <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>
+        </Helmet> */}
       </div>
 
       <section id="landing">
