@@ -1,21 +1,10 @@
 import React from "react"
 import GetUpdates from "./GetUpdates"
-import Helmet from "react-helmet"
 import "../styles/Content.scss"
 
 export default function Content() {
   return (
     <main>
-      <div>
-
-        {/* fix */}
-        {/* <Helmet>
-          <meta charSet="utf-8" />
-          <title>Tuffy Hacks</title>
-          <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet> */}
-      </div>
-
       <section id="landing">
         <div>
           <h1>TuffyHacks 2021</h1>
@@ -43,13 +32,13 @@ export default function Content() {
             <p>
               ACM, Theta Tau and other STEM Clubs are uniting to host Cal State
               Fullerton's first 24-hour virtual hackathon for beginners and
-              first-time hackers, where participants from all our college
-              create innovative products. This year, our hackathon will be held virtually on March 27
-              - 28th, meaning you can participate from the comfort of your own
-              home! Come learn new topics with recorded workshops ranging from
-              open-source software to creating your own DiscordBot. Meet our
-              sponsors at their networking events. Your project also has the
-              chance to win some of our cool prizes!
+              first-time hackers, where participants from all our college create
+              innovative products. This year, our hackathon will be held
+              virtually on March 27 - 28th, meaning you can participate from the
+              comfort of your own home! Come learn new topics with recorded
+              workshops ranging from open-source software to creating your own
+              DiscordBot. Meet our sponsors at their networking events. Your
+              project also has the chance to win some of our cool prizes!
             </p>
             <a href="#get-updates" className="cta">
               Get Updates
@@ -65,7 +54,7 @@ export default function Content() {
             Interested in sponsoring? Check out our 2021 sponsorship packages
             here. For more detailed instructions on how to sponsor, click here!
           </p>
-          <a href="#" className="cta">
+          <a href="https://tinyurl.com/tuffyhacks-sponorship" className="cta">
             Become a Sponsor
           </a>
         </div>
@@ -77,21 +66,21 @@ export default function Content() {
           <div className="faq-container">
             <div className="faq-column">
               <details>
-                <summary>What is a hackathon?</summary>A hackathon is a weekend-long
-                event where students come together to learn the latest technologies
-                and build innovative technologies.
+                <summary>What is a hackathon?</summary>A hackathon is a
+                weekend-long event where students come together to learn the
+                latest technologies and build innovative technologies.
               </details>
               <details>
                 <summary>When and where is TuffyHacks?</summary>
-                TuffyHacks is taking place from March 27th to March 28th. Due to the
-                COVID-19 pandemic and for the health and safety of all students,
-                this hackathon will be held virtually.
+                TuffyHacks is taking place from March 27th to March 28th. Due to
+                the COVID-19 pandemic and for the health and safety of all
+                students, this hackathon will be held virtually.
               </details>
               <details>
                 <summary>Who can participate?</summary>
                 Any current college student or have graduated in the past year,
-                you're more than welcome to attend! Not a student? No problem! You
-                can attend as a mentor and help out our students! Mentor
+                you're more than welcome to attend! Not a student? No problem!
+                You can attend as a mentor and help out our students! Mentor
                 applications will be opening soon
               </details>
               <details>
@@ -100,8 +89,8 @@ export default function Content() {
                   hackathons?
                 </summary>
                 We don’t expect hackers to have any prior experience. We will be
-                providing starter packs and beginner-friendly workshops to help new
-                hackers get their projects off the ground.
+                providing starter packs and beginner-friendly workshops to help
+                new hackers get their projects off the ground.
               </details>
               <details>
                 <summary>How much does it cost to attend Tuffy Hacks?</summary>
@@ -120,9 +109,10 @@ export default function Content() {
               </details>
               <details>
                 <summary>Do I need to have a group? </summary>
-                Not at all! You can be a lone wolf, come with a team (no more than
-                four people), or join some teams at TuffyHacks. We’ll also have team
-                building activities to help you find the right teammates!
+                Not at all! You can be a lone wolf, come with a team (no more
+                than four people), or join some teams at TuffyHacks. We’ll also
+                have team building activities to help you find the right
+                teammates!
               </details>
               <details>
                 <summary>How many people can I have per group? </summary>
@@ -131,8 +121,10 @@ export default function Content() {
               <details>
                 <summary>Question not found?</summary>
                 Please email{" "}
-                <a href="mailto:tuffyhacks@gmail.com">tuffyhacks@gmail.com</a> if
-                you have any questions! We'd love to hear from you.
+                <a href="mailto:tuffyhacks@gmail.com">
+                  tuffyhacks@gmail.com
+                </a>{" "}
+                if you have any questions! We'd love to hear from you.
               </details>
             </div>
           </div>
