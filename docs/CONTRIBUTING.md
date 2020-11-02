@@ -32,6 +32,17 @@ All contributions are appreciated! 😊
 
 > 💡 Remember to refer to the [list of references](#reference-) in case you are looking for anything in particular.
 
+### Mirroring 😎
+
+To update a fork of this repository, execute the following commands:
+
+```shell
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push
+```
+
 ## Todo ✅
 
 - [ ] Branding in General...
