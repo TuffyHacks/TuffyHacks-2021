@@ -41,17 +41,18 @@ All contributions are appreciated! 😊
   - [ ] Write up a mission statement in the [README](../README.md).
   - [ ] Write up a summary of what techniques were used to create this digital platform.
   - [ ] Write up a summary of how Mailchimp is integrated in this site.
-  - [ ] Feel free to add some [references](#reference-) (at the bottom of this document).
+  - [ ] Feel free to add some [references](#developer-references-) (at the bottom of this document).
 - [x] Miscellaneous Tasks...
 
-## Design Spec 💅
+## Developer References 📚
 
-All of the sections on the homepage approximately take up one screen and are each styled with a [CSS grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) technique.
-Consider using [Layoutit](https://grid.layoutit.com/) to help create correct grid CSS.
-
-## Reference 📚
+### Marketing 🤩
 
 - [Figma Mockup](https://www.figma.com/file/54GhVqKMnaifOzbEIkGPdC/TuffyHacks-Design?node-id=0%3A1): The site's target layout.
+- [Shared Assets](https://drive.google.com/drive/folders/10az6ZViGTgKts_fyJAXD6CDOsnB5Memc)
+
+### Miscellaneous 💫
+
 - [_Learn CSS Grid_](https://learncssgrid.com/): Info about how to implement CSS grid.
 - [Layoutit](https://grid.layoutit.com/): CSS grid utility.
 - [_An Introduction to Open Source_](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source)
