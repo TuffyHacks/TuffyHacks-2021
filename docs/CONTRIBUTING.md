@@ -34,14 +34,6 @@ All contributions are appreciated! 😊
 
 ## Todo ✅
 
-- [ ] Style the main sections...
-  - [ ] Create CSS grid layout and positioning for landing section.
-  - [ ] Create CSS grid layout and positioning for about section.
-  - [ ] Create CSS grid layout and positioning for sponsors section.
-  - [ ] Create CSS grid layout and positioning for FAQ section.
-  - [ ] Create CSS grid layout and positioning for Get-Updates section.
-  - [ ] Create CSS button styling for `cta` (Call to Action) class.
-  - [ ] Create CSS effect where the line in the social component gets longer the further the scroll.
 - [ ] Branding in General...
   - [ ] Create an SVG design for a TuffyHacks logo.
   - [ ] Create a favicon of the TuffyHacks logo.
@@ -51,10 +43,6 @@ All contributions are appreciated! 😊
   - [ ] Write up a summary of how Mailchimp is integrated in this site.
   - [ ] Feel free to add some [references](#reference-) (at the bottom of this document).
 - [x] Miscellaneous Tasks...
-  - [x] Build [GetUpdates](../src/components/GetUpdates.tsx) component. (Ethan)
-  - [x] Style the [aside](src/components/Social.tsx). (Ethan)
-  - [x] Create HTML markup.
-  - [x] Style the header.
 
 ## Design Spec 💅
 
