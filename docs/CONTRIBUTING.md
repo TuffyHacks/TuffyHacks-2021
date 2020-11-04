@@ -32,7 +32,16 @@ All contributions are appreciated! 😊
 
 > 💡 Remember to refer to the [list of references](#reference-) in case you are looking for anything in particular.
 
-### Mirroring 😎
+### Mirroring to the Production Repo 😎
+
+To configure a remote fork a fork of the repository
+
+```shell
+git remote -v
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git remote -v
+```
+
 
 To update a fork of this repository, execute the following commands:
 
