@@ -55,8 +55,9 @@ git push
 ## Todo ✅
 
 - [ ] Branding in General...
-  - [ ] Create an SVG design for a TuffyHacks logo.
-  - [ ] Create a favicon of the TuffyHacks logo.
+  - [x] Create an SVG design for a TuffyHacks logo.
+  - [x] Create a favicon of the TuffyHacks logo.
+  - [ ] Style assets to the site
 - [ ] Documenting...
   - [ ] Write up a mission statement in the [README](../README.md).
   - [ ] Write up a summary of what techniques were used to create this digital platform.
