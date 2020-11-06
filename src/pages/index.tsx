@@ -11,6 +11,12 @@ export default function Home() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Tuffy Hacks</title>
+
+        {/* Adhering to Open Graph protocol (https://ogp.me/) */}
+        <meta property="og:title" content="TuffyHacks" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="mascot.png" />
+        <meta property="og:site_name" content="TuffyHacks" />
       </Helmet>
       <Header />
       <Social />
