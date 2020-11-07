@@ -11,8 +11,6 @@ section {
   // justify-content: center;
   align-content: center;
 
-  // media query for divs to make the font size smaller at breakpoint
-
   h2 {
     font-size: 32px;
   }
@@ -35,6 +33,7 @@ section {
     text-align: center;
     min-width: 170px;
     max-width: 170px;
+    max-height: 35px;
 
     &:hover {
       // TODO: Create a special hover effect for cta.
@@ -47,9 +46,19 @@ section {
   }
 }
 
+@media (max-width: 700px) {
+  #info h3 {
+    font-size: 16px;
+    color: red;
+  }
+
+  #landing a {
+    width: 50%;
+  }
+}
+
 #landing div {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
   gap: 0px 0px;
   grid-template-areas:
     "title title"
@@ -57,7 +66,6 @@ section {
     "date date"
     "link1 link2"
     "p2 p2";
-  text-align: left;
 
   h1 {
     grid-area: title;
@@ -91,6 +99,23 @@ section {
     width: 100%;
     margin-top: 0.75em;
   }
+
+  @media screen and (max-width: $breakpoint) {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "title title"
+      "p1 p1"
+      "date date"
+      "link1 link1"
+      "link2 link2"
+      "p2 p2";
+    a:nth-of-type(1) {
+      width: auto;
+    }
+    a:nth-of-type(2) {
+      width: auto;
+    }
+  }
 }
 
 #about {
@@ -112,6 +137,10 @@ section {
       width: 30em;
       p {
         margin: 2em 0 2em 0;
+      }
+
+      @media screen and (max-width: $breakpoint) {
+        width: 15em;
       }
     }
   }
@@ -151,10 +180,14 @@ section {
 }
 
 .faq-column {
-  max-width: 400px;
+  width: 400px;
   flex-shrink: 1;
   font-size: 18px;
   margin: 10px 5px 0 5px;
+
+  @media screen and (max-width: $breakpoint) {
+    width: 15em;
+  }
 }
 
 #get-updates {
