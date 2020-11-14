@@ -10,12 +10,14 @@ export default function Content() {
           <h1>TuffyHacks 2021</h1>
           <p>Making dreams reality</p>
           <time dateTime="2021-3-27">March 27-28, 2021 • Virtual Event</time>
-          <a href="#get-updates" className="cta">
-            Get Updates
-          </a>
-          <a href="#" className="cta">
-            Schedule
-          </a>
+          <div className="cta-container">
+            <a href="#get-updates" className="cta">
+              Get Updates
+            </a>
+            <a href="#" className="cta">
+              Schedule
+            </a>
+          </div>
           <p>Interested in sponsoring?</p>
         </div>
       </section>

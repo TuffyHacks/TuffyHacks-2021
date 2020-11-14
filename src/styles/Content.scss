@@ -15,6 +15,11 @@ section {
     font-size: 32px;
   }
 
+  .cta-container {
+    display: flex;
+    flex-direction: row;
+  }
+
   .cta {
     font-family: "Roboto", sans-serif;
     font-size: 12pt;
@@ -57,9 +62,10 @@ section {
   }
 }
 
-#landing div {
+#landing {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   h1 {
     width: 100%;
