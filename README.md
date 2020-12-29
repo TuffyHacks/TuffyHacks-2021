@@ -7,6 +7,7 @@
 See the [CONTRIBUTING](docs/CONTRIBUTING.md) document to see how you can help contribute to TuffyHacks.com.
 
 ---
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bbb0fd26-a07b-4214-9f56-2788b0a2f13e/deploy-status)](https://app.netlify.com/sites/nostalgic-noether-ff4f0c/deploys)
 
 Built with 💖 by the [TuffyHacks Team](https://github.com/TuffyHacks)
 
